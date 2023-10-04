@@ -1,0 +1,57 @@
+li {
+  border: 1px solid paleturquoise;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  li {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.time {
+  font-size: medium;
+}
+@media screen and (min-width: 768px) {
+  .time {
+    margin-right: 30px;
+    width: 100px;
+  }
+}
+
+.content-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.content-item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.app-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .app-logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+.link-text {
+  margin-left: 10px;
+  text-decoration: none;
+}
+.delete-icon {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
